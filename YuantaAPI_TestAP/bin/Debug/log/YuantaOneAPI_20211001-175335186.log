@@ -1,0 +1,60 @@
+2021/10/01 17:53:35.201 [APIKERNEL][ThreadID=1] [SetLogHandle] SetDefaultLogType:COMMON
+2021/10/01 17:53:35.204 [APIKERNEL][ThreadID=1] [YuantaOneAPITrader] DLL Version:1.0.2021.0127
+2021/10/01 17:53:35.614 [APIKERNEL][ThreadID=1] [SetLogType] Type:COMMON
+2021/10/01 17:53:42.441 [APIKERNEL][ThreadID=1] [GetAPIInfoForJson] Msg:OK
+2021/10/01 17:53:42.452 [APIKERNEL][ThreadID=1] [GetAPIInfo] Msg:OK
+2021/10/01 17:53:42.474 [APIKERNEL][ThreadID=1] [YuantaMsg] Msg=Create ClassInstance
+2021/10/01 17:53:42.478 [交易主機][ThreadID=1] [IsConnected] Msg=Socket is null
+2021/10/01 17:53:42.481 [交易主機][ThreadID=1] [Open] Msg=intRandNum=607,uintIteration=367
+2021/10/01 17:53:42.484 [交易主機][ThreadID=1] [OpenConnection] Msg=START
+2021/10/01 17:53:43.717 [交易主機][ThreadID=1] [OpenConnection] Msg=ConnectionStatus = 1
+2021/10/01 17:53:43.719 [交易主機][ThreadID=1] [SendStartPackage] Msg=ing
+2021/10/01 17:53:43.723 [交易主機][ThreadID=1] [DibRqSb] Msg=uintHandle=0,uintEventType=[RQ],bySubscribeFlag=0,uintFunctionID=0.0.0.0,uintScreenID=0
+2021/10/01 17:53:43.734 [交易主機][ThreadID=1] [OutputSocketWorker] uintFunctionID=0.0.0.0 SendSuccess=True
+2021/10/01 17:53:43.735 [交易主機][ThreadID=1] [OpenConnection] Msg=SET SocketCompleted OK
+2021/10/01 17:53:43.736 [交易主機][ThreadID=1] [OpenConnection] Msg=FINISH
+2021/10/01 17:53:43.740 [交易主機][ThreadID=8] [CheckAlive] Msg=START
+2021/10/01 17:53:43.939 [交易主機][ThreadID=6] [DataControlWorker] Msg=intConnectionStatus = 2
+2021/10/01 17:53:43.958 [交易主機][ThreadID=6] [SendHandShakePackage] Msg=intConnectionStatus = 3
+2021/10/01 17:53:43.958 [交易主機][ThreadID=6] [DibRqSb] Msg=uintHandle=0,uintEventType=[RQ],bySubscribeFlag=0,uintFunctionID=0.0.0.30,uintScreenID=0
+2021/10/01 17:53:43.958 [交易主機][ThreadID=6] [OutputSocketWorker] uintFunctionID=0.0.0.30 SendSuccess=True
+2021/10/01 17:53:43.958 [交易主機][ThreadID=6] [DataControlWorker] Msg=START_COMMUNICATION Completed
+2021/10/01 17:53:44.339 [交易主機][ThreadID=7] [DataControlWorker] Msg=intConnectionStatus = 5
+2021/10/01 17:53:44.358 [交易主機][ThreadID=7] [DataControlWorker] Msg=Handshake Completed
+2021/10/01 17:54:14.929 [交易主機][ThreadID=1] [DibRqSb] Msg=uintHandle=982769889,uintEventType=[RQ],bySubscribeFlag=0,uintFunctionID=40.100.0.7,uintScreenID=9999
+2021/10/01 17:54:14.978 [交易主機][ThreadID=1] [OutputSocketWorker] uintFunctionID=40.100.0.7 SendSuccess=True
+2021/10/01 17:54:16.742 [交易主機][ThreadID=5] [DataControlWorker] Msg=[RP]=ResultNo=1,FunctionID=40.100.0.7,Handle=982769889
+2021/10/01 17:54:16.783 [APIKERNEL][ThreadID=5] [UpdateMarketLimit] Msg:OK
+2021/10/01 17:54:16.784 [交易主機][ThreadID=5] [DibRqSb] Msg=uintHandle=0,uintEventType=[SB],bySubscribeFlag=0,uintFunctionID=200.10.10.26,uintScreenID=0
+2021/10/01 17:54:16.784 [交易主機][ThreadID=5] [DibRqSb] Msg=[即時訂閱_C80A0A1A]
+2021/10/01 17:54:16.793 [交易主機][ThreadID=5] [] Msg=SUBSCRIBE_ADD:C80A0A1A;53-39-38-31-4D-30-31-32-36-36-39-34-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:16.794 [交易主機][ThreadID=5] [OutputSocketWorker] uintFunctionID=200.10.10.26 SendSuccess=True
+2021/10/01 17:54:16.794 [交易主機][ThreadID=5] [DibRqSb] Msg=uintHandle=0,uintEventType=[SB],bySubscribeFlag=0,uintFunctionID=200.10.10.27,uintScreenID=0
+2021/10/01 17:54:16.794 [交易主機][ThreadID=5] [DibRqSb] Msg=[即時訂閱_C80A0A1B]
+2021/10/01 17:54:16.794 [交易主機][ThreadID=5] [] Msg=SUBSCRIBE_ADD:C80A0A1B;53-39-38-31-4D-30-31-32-36-36-39-34-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:16.795 [交易主機][ThreadID=5] [OutputSocketWorker] uintFunctionID=200.10.10.27 SendSuccess=True
+2021/10/01 17:54:16.796 [APIKERNEL][ThreadID=5] [YuantaMsg] Msg=Create ClassInstance
+2021/10/01 17:54:16.796 [台股報價/國外期貨報價][ThreadID=5] [IsConnected] Msg=Socket is null
+2021/10/01 17:54:16.796 [台股報價/國外期貨報價][ThreadID=5] [Open] Msg=intRandNum=562,uintIteration=459
+2021/10/01 17:54:16.796 [台股報價/國外期貨報價][ThreadID=5] [OpenConnection] Msg=START
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [OpenConnection] Msg=ConnectionStatus = 1
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [SendStartPackage] Msg=ing
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [DibRqSb] Msg=uintHandle=0,uintEventType=[RQ],bySubscribeFlag=0,uintFunctionID=0.0.0.0,uintScreenID=0
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [OutputSocketWorker] uintFunctionID=0.0.0.0 SendSuccess=True
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [OpenConnection] Msg=SET SocketCompleted OK
+2021/10/01 17:54:17.763 [台股報價/國外期貨報價][ThreadID=5] [OpenConnection] Msg=FINISH
+2021/10/01 17:54:17.766 [台股報價/國外期貨報價][ThreadID=13] [CheckAlive] Msg=START
+2021/10/01 17:54:17.953 [台股報價/國外期貨報價][ThreadID=9] [DataControlWorker] Msg=intConnectionStatus = 2
+2021/10/01 17:54:17.962 [台股報價/國外期貨報價][ThreadID=9] [SendHandShakePackage] Msg=intConnectionStatus = 3
+2021/10/01 17:54:17.962 [台股報價/國外期貨報價][ThreadID=9] [DibRqSb] Msg=uintHandle=0,uintEventType=[RQ],bySubscribeFlag=0,uintFunctionID=0.0.0.30,uintScreenID=0
+2021/10/01 17:54:17.962 [台股報價/國外期貨報價][ThreadID=9] [OutputSocketWorker] uintFunctionID=0.0.0.30 SendSuccess=True
+2021/10/01 17:54:17.962 [台股報價/國外期貨報價][ThreadID=9] [DataControlWorker] Msg=START_COMMUNICATION Completed
+2021/10/01 17:54:18.344 [台股報價/國外期貨報價][ThreadID=9] [DataControlWorker] Msg=intConnectionStatus = 5
+2021/10/01 17:54:18.345 [台股報價/國外期貨報價][ThreadID=9] [DataControlWorker] Msg=Handshake Completed
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [DibRqSb] Msg=uintHandle=0,uintEventType=[SB],bySubscribeFlag=0,uintFunctionID=98.10.70.10,uintScreenID=1000
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [DibRqSb] Msg=[即時訂閱_620A460A]
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [] Msg=SUBSCRIBE_ADD:620A460A;01-32-33-33-30-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [] Msg=SUBSCRIBE_ADD:620A460A;01-32-38-38-35-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [] Msg=SUBSCRIBE_ADD:620A460A;03-37-37-39-39-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:32.554 [台股報價/國外期貨報價][ThreadID=1] [] Msg=SUBSCRIBE_ADD:620A460A;01-33-30-33-35-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+2021/10/01 17:54:32.555 [台股報價/國外期貨報價][ThreadID=1] [OutputSocketWorker] uintFunctionID=98.10.70.10 SendSuccess=True
